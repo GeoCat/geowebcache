@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.geowebcache</groupId>
   <artifactId>geowebcache</artifactId>
-  <version>1.26-SNAPSHOT</version>
+  <version>1.27-SNAPSHOT</version>
   <packaging>pom</packaging>
   <!-- GWC VERSION -->
   <name>geowebcache</name>
@@ -51,9 +51,9 @@
   </distributionManagement>
 
   <properties>
-    <gt.version>32-SNAPSHOT</gt.version>
-    <jts.version>1.19.0</jts.version>
-    <jaiext.version>1.1.26</jaiext.version>
+    <gt.version>33-SNAPSHOT</gt.version>
+    <jts.version>1.20.0</jts.version>
+    <jaiext.version>1.1.27</jaiext.version>
     <spring.version>5.3.39</spring.version>
     <spring.security.version>5.7.12</spring.security.version>
     <xstream.version>1.4.20</xstream.version>
@@ -76,7 +76,7 @@
     <jalopy.srcExcludesPattern>disabled</jalopy.srcExcludesPattern>
     <test.maxHeapSize>64M</test.maxHeapSize>
     <maven.test.jvmargs></maven.test.jvmargs>
-    <imageio-ext.version>1.4.12</imageio-ext.version>
+    <imageio-ext.version>1.4.13</imageio-ext.version>
     <hazelcast.version>5.3.6</hazelcast.version>
     <joda-time.version>2.8.1</joda-time.version>
     <spotless.action>apply</spotless.action>
@@ -712,7 +712,7 @@
             <descriptor>release/war.xml</descriptor>
             <descriptor>release/doc.xml</descriptor>
           </descriptors>
-          <finalName>geowebcache-1.26-SNAPSHOT</finalName>
+          <finalName>geowebcache-1.27-SNAPSHOT</finalName>
           <outputDirectory>${project.build.directory}/release</outputDirectory>
         </configuration>
       </plugin>
